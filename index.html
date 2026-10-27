@@ -1,0 +1,263 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instagram Clone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- LEFT SIDEBAR -->
+  <aside class="sidebar">
+    <div class="logo">Instagram</div>
+
+    <nav class="navigation">
+      <a class="nav-item active" href="#"><span class="nav-icon">⌂</span><span class="nav-label">Home</span></a>
+      <a class="nav-item" href="#"><span class="nav-icon">⌕</span><span class="nav-label">Search</span></a>
+      <a class="nav-item" href="#"><span class="nav-icon">◎</span><span class="nav-label">Explore</span></a>
+      <a class="nav-item" href="#"><span class="nav-icon">▣</span><span class="nav-label">Reels</span></a>
+      <a class="nav-item" href="#"><span class="nav-icon">➤</span><span class="nav-label">Messages</span></a>
+      <a class="nav-item" href="#"><span class="nav-icon">♡</span><span class="nav-label">Notifications</span></a>
+      <a class="nav-item" href="#"><span class="nav-icon">⊞</span><span class="nav-label">Create</span></a>
+      <a class="nav-item" href="#">
+        <img class="nav-avatar" src="assets/profile-upvox.jpg" alt="Profile">
+        <span class="nav-label">Profile</span>
+      </a>
+    </nav>
+
+    <a class="nav-item more" href="#">
+      <span class="nav-icon">☰</span><span class="nav-label">More</span>
+    </a>
+  </aside>
+
+  <!-- CENTER FEED -->
+  <main class="main-content">
+    <section class="feed">
+
+      <!-- STORIES -->
+      <div class="stories">
+        <div class="story">
+          <div class="story-ring"><img src="assets/story-1.jpg" alt=""></div>
+          <span>itsdougthep</span>
+        </div>
+        <div class="story">
+          <div class="story-ring"><img src="assets/story-2.jpg" alt=""></div>
+          <span>opendaily</span>
+        </div>
+        <div class="story">
+          <div class="story-ring"><img src="assets/story-3.jpg" alt=""></div>
+          <span>lewishamilton</span>
+        </div>
+        <div class="story">
+          <div class="story-ring"><img src="assets/story-4.jpg" alt=""></div>
+          <span>wahab.xyz</span>
+        </div>
+        <div class="story">
+          <div class="story-ring"><img src="assets/story-5.jpg" alt=""></div>
+          <span>defourous</span>
+        </div>
+        <div class="story">
+          <div class="story-ring"><img src="assets/story-6.jpg" alt=""></div>
+          <span>mkbhd</span>
+        </div>
+      </div>
+
+      <!-- POST 1 -->
+      <article class="post">
+        <header class="post-header">
+          <img class="avatar" src="assets/story-3.jpg" alt="">
+          <div class="username">
+            <strong>lewishamilton</strong>
+            <span class="verified">✓</span>
+            <span class="muted">· 5h</span>
+          </div>
+          <button class="post-menu">•••</button>
+        </header>
+
+        <img class="post-image" src="assets/post-helmet.jpg" alt="Racing helmet">
+
+        <div class="post-actions">
+          <button aria-label="Like">♡</button>
+          <button aria-label="Comment">▢</button>
+          <button aria-label="Share">➤</button>
+          <button class="bookmark" aria-label="Save">♧</button>
+        </div>
+
+        <div class="post-details">
+          <strong>741,368 likes</strong>
+          <p><strong>lewishamilton</strong> Parabéns Ayrton, minha inspiração sempre 🇧🇷🏁</p>
+          <a class="muted" href="#">See translation</a>
+          <p class="muted">View all 13,384 comments</p>
+          <div class="add-comment">Add a comment... <span>☺</span></div>
+        </div>
+      </article>
+
+      <!-- POST 2 -->
+      <article class="post">
+        <header class="post-header">
+          <img class="avatar" src="assets/story-2.jpg" alt="">
+          <div class="username">
+            <strong>kurzgesagt</strong>
+            <span class="verified">✓</span>
+            <span class="muted">· 8h</span>
+          </div>
+          <button class="post-menu">•••</button>
+        </header>
+
+        <img class="post-image" src="assets/post-string-theory.jpg" alt="String theory artwork">
+
+        <div class="post-actions">
+          <button aria-label="Like">♡</button>
+          <button aria-label="Comment">▢</button>
+          <button aria-label="Share">➤</button>
+          <button class="bookmark" aria-label="Save">♧</button>
+        </div>
+
+        <div class="post-details">
+          <strong>6,724 likes</strong>
+          <p><strong>kurzgesagt</strong> For every video we upload to YouTube, we create different versions of the final thumbnail... <a href="#">more</a></p>
+          <p class="muted">View all 37 comments</p>
+          <div class="add-comment">Add a comment... <span>☺</span></div>
+        </div>
+      </article>
+
+      <!-- SUGGESTIONS IN FEED -->
+      <section class="feed-suggestions">
+        <div class="suggestions-heading">
+          <strong>Suggestions for you</strong>
+          <a href="#">See all</a>
+        </div>
+
+        <div class="suggestion-cards">
+          <div class="suggestion-card">
+            <button class="close-button">×</button>
+            <img src="assets/story-4.jpg" alt="">
+            <strong>Kirti Chadha</strong>
+            <small>Follows you</small>
+            <button class="follow-button">Follow</button>
+          </div>
+
+          <div class="suggestion-card">
+            <button class="close-button">×</button>
+            <img src="assets/story-5.jpg" alt="">
+            <strong>Durgesh Nandini</strong>
+            <small>Suggested for you</small>
+            <button class="follow-button">Follow</button>
+          </div>
+
+          <div class="suggestion-card">
+            <button class="close-button">×</button>
+            <img src="assets/story-6.jpg" alt="">
+            <strong>mkbhd</strong>
+            <small>Suggested for you</small>
+            <button class="follow-button">Follow</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- POST 3 -->
+      <article class="post">
+        <header class="post-header">
+          <img class="avatar" src="assets/story-1.jpg" alt="">
+          <div class="username">
+            <strong>discovery</strong>
+            <span class="verified">✓</span>
+            <span class="muted">· 2d</span>
+          </div>
+          <button class="post-menu">•••</button>
+        </header>
+
+        <img class="post-image eagle-image" src="assets/post-eagle.jpg" alt="Eagle flying">
+
+        <div class="post-actions">
+          <button aria-label="Like">♡</button>
+          <button aria-label="Comment">▢</button>
+          <button aria-label="Share">➤</button>
+          <button class="bookmark" aria-label="Save">♧</button>
+        </div>
+
+        <div class="post-details">
+          <strong>78,780 likes</strong>
+          <p><strong>discovery</strong> If you had to choose, where would you be the fastest: air, land, or sea? <a href="#">more</a></p>
+          <p class="muted">View all 456 comments</p>
+          <div class="add-comment">Add a comment... <span>☺</span></div>
+        </div>
+      </article>
+
+    </section>
+  
+
+  <!-- RIGHT SIDEBAR -->
+  <aside class="right-sidebar">
+
+    <div class="current-account">
+      <img class="account-avatar" src="assets/profile-upvox.jpg" alt="">
+      <div class="account-info">
+        <strong>upvox_</strong>
+        <span>Upvox</span>
+      </div>
+      <a href="#">Switch</a>
+    </div>
+
+    <div class="right-heading">
+      <strong>Suggestions for you</strong>
+      <a href="#">See All</a>
+    </div>
+
+    <div class="follow-row">
+      <img src="assets/story-1.jpg" alt="">
+      <div class="follow-info">
+        <strong>imkin</strong>
+        <span>Follows you</span>
+      </div>
+      <a href="#">Follow</a>
+    </div>
+
+    <div class="follow-row">
+      <img src="assets/story-2.jpg" alt="">
+      <div class="follow-info">
+        <strong>organic_al</strong>
+        <span>Followed by chirag_singh17</span>
+      </div>
+      <a href="#">Follow</a>
+    </div>
+
+    <div class="follow-row">
+      <img src="assets/story-3.jpg" alt="">
+      <div class="follow-info">
+        <strong>im_gy</strong>
+        <span>Followed by chirag_singh17</span>
+      </div>
+      <a href="#">Follow</a>
+    </div>
+
+    <div class="follow-row">
+      <img src="assets/story-4.jpg" alt="">
+      <div class="follow-info">
+        <strong>abh952</strong>
+        <span>Follows you</span>
+      </div>
+      <a href="#">Follow</a>
+    </div>
+
+    <div class="follow-row">
+      <img src="assets/story-5.jpg" alt="">
+      <div class="follow-info">
+        <strong>sakbrr</strong>
+        <span>Follows you</span>
+      </div>
+      <a href="#">Follow</a>
+    </div>
+
+    <footer class="footer-links">
+      About · Help · Press · API · Jobs · Privacy · Terms · Locations · Language · Meta Verified
+      <br><br>
+      © 2023 INSTAGRAM FROM META
+    </footer>
+
+  </aside>
+</main>
+</body>
+</html>
